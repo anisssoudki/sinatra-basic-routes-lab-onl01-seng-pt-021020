@@ -7,6 +7,6 @@ class App < Sinatra::Base
   end
   
   get '/:hometown' do 
-    "My hometown is #{[:hometown]}"
+    "My hometown is #{params[:hometown]}"
   end
 end
