@@ -8,5 +8,5 @@ class App < Sinatra::Base
   
   get '/:hometown' do 
     "My hometown is #{[:hometown]}"
-  
+  end
 end
