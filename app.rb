@@ -5,6 +5,7 @@ class App < Sinatra::Base
   get '/name' do 
     puts '/' do 
     name  
+  end
   return 200
   end
   
