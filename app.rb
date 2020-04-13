@@ -6,7 +6,7 @@ class App < Sinatra::Base
    "My name is #{params[:name]}"
   end
   
-  get '/:hometown' do 
+  get '/:name/:hometown' do 
     "My hometown is #{params[:hometown]}"
   end
 end
