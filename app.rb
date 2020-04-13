@@ -4,7 +4,7 @@ class App < Sinatra::Base
  
   get '/name' do 
     return 200
-  return "#{name}"
+  return "My name is #{name}"
   end
   
 end
