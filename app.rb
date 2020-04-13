@@ -4,7 +4,7 @@ class App < Sinatra::Base
  
   get '/name' do 
    return {statuscode => '200',
-   "My name is #{name}"
+   name => "My name is #{name}"
  
   end
   
